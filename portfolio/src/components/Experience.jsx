@@ -3,38 +3,61 @@ import experience from "./Data/experience.json";
 
 const Experience = () => {
   return (
-    <>
-      <div className="container ex" id="experience">
-        <h1>EXPERIENCE</h1>
-        {experience.map((data) => {
-          return (
-            <>
+    <section id="experience" className="py-5">
+      <div className="container">
+        <h1 className="text-center mb-5 text-warning">EXPERIENCE</h1>
+        <div className="row">
+          {experience.map((data) => (
+            <div
+              key={data.id}
+              className="col-lg-6 mb-4"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
               <div
-                key={data.id}
-                className="ex-items text-center my-5"
-                data-aos="zoom-in"
-                data-aos-duration="1000"
+                className="d-flex flex-column flex-md-row align-items-center p-4 shadow-lg rounded"
+                style={{
+                  backgroundColor: "black", // Black background for the card
+                  border: "2px solid red", // Red border
+                  transition: "transform 0.3s ease, box-shadow 0.3s ease",
+                  height: "100%",
+                }}
               >
-                <div className="left">
-                  <img src={`/assets/${data.imageSrc}`} alt="" />
+                {/* Left Section: Image */}
+                <div className="mb-3 mb-md-0 me-md-4 text-center">
+                  <img
+                    src={`/assets/${data.imageSrc}`}
+                    alt=""
+                    className="img-fluid rounded-circle border border-warning"
+                    style={{
+                      width: "120px",
+                      height: "120px",
+                      transition: "transform 0.3s ease",
+                    }}
+                  />
                 </div>
-                <div className="right">
-                  <h2>{data.role}</h2>
-                  <h4>
-                    <span style={{ color: "yellowgreen" }}>
-                      {data.startDate} {data.endDate}{" "}
+                {/* Right Section: Details */}
+                <div className="text-center text-md-start">
+                  <h2 className="mb-2 text-danger">{data.role}</h2>
+                  <h4 className="mb-2">
+                    <span className="text-warning">
+                      {data.startDate} - {data.endDate}
                     </span>{" "}
-                    <span style={{ color: "yellow" }}>{data.location}</span>
+                    |{" "}
+                    <span className="text-warning">{data.location}</span>
                   </h4>
-                  <h5 style={{ color: "yellow" }}>{data.experiences[0]}</h5>
-                  <h5 style={{ color: "yellow" }}>{data.experiences[1]}</h5>
+                  {data.experiences.map((exp, index) => (
+                    <h5 key={index} className="text-warning mb-1">
+                      {exp}
+                    </h5>
+                  ))}
                 </div>
               </div>
-            </>
-          );
-        })}
+            </div>
+          ))}
+        </div>
       </div>
-    </>
+    </section>
   );
 };
 

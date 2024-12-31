@@ -1,41 +1,50 @@
 [
   {
     "id": 1,
-    "role": "Senior Software Development Engineer SDE - II",
-    "organisation": "Google",
-    "startDate": "Sept, 2023",
-    "endDate": "Present",
-    "location": "CA,United State",
+    "role": "React Js - Intern",
+    "organisation": "Relearn Camp Pvt Ltd",
+    "startDate": "Apr, 2024",
+    "endDate": "Jul,2024",
     "experiences": [
-      "Worked on Google Gmail",
-      "Worked with the Google Bard Team"
+      "Build an interactive web page",
+      "Use of third-pary Api"
     ],
-    "imageSrc": "company/google.png"
+    "imageSrc": "company/img1.jpg"
   },
   {
     "id": 2,
-    "role": "Software Development Engineer SDE - I",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2022",
-    "endDate": "Aug, 2023",
-    "location": "London, UK",
+    "role": "Web Developer - Intern",
+    "organisation": "Octanet Services Pvt Ltd",
+    "startDate": "Sep, 2024",
+    "endDate": "Sep, 2024",
     "experiences": [
-      "Worked on Windows 10 terminal",
-      "Worked on Window 11 Upcoming features"
+      "Worked on Portfolio And Landing Page",
+      "Worked on responsiveness and cross browser compatibility"
     ],
-    "imageSrc": "company/microsoft.png"
+    "imageSrc": "hero/img17.png"
   },
   {
     "id": 3,
-    "role": "Software Development Engineer - Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2021",
-    "endDate": "Jun, 2022",
-    "location": "Bengluru, India",
+    "role": "Mern Stack Developer - Intern",
+    "organisation": "DSR Secure Tech Group Of Companies",
+    "startDate": "Jul, 2024",
+    "endDate": "Dec, 2024",
     "experiences": [
-      "Worked on Nextflix payment system",
-      "Helped to create UI for video player"
+      "Worked in making the original website",
+      "Helped in testing Api"
     ],
-    "imageSrc": "company/netflix.png"
+    "imageSrc": "company/img3.jpg"
+  },
+  {
+    "id": 4,
+    "role": "WinForm Developer - Intern",
+    "organisation": "Generix Info Tech Pvt Ltd",
+    "startDate": "Jun, 2023",
+    "endDate": "Aug, 2023",
+    "experiences": [
+      "Worked in making Exam Management System",
+      "Helped in Frontend and managing Database"
+    ],
+    "imageSrc": "company/img4.jpg"
   }
 ]

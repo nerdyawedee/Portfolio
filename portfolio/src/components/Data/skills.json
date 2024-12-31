@@ -12,11 +12,11 @@
     "imageSrc": "skills/javascript.png"
   },
   {
-    "title": "React",
+    "title": "React Js",
     "imageSrc": "skills/react.png"
   },
   {
-    "title": "Node",
+    "title": "Node Js",
     "imageSrc": "skills/node.png"
   },
   {
@@ -24,7 +24,7 @@
     "imageSrc":"skills/firebase.png"
   },
   {
-    "title": "GraphQL",
+    "title": "Express Js",
     "imageSrc": "skills/graphql.png"
   },
   {
