@@ -20,7 +20,7 @@ const Contact = () => {
           <i className="fab fa-github-square text-white" style={{ fontSize: "2rem" }}></i>
         </a>
         <a
-          href="mailto:patnaikdebasmita44@gmail.com"
+          href="mailto:patnaikdebasmita2@gmail.com"
           target="_blank"
           className="mx-3"
         >
