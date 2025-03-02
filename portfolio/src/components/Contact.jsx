@@ -6,7 +6,7 @@ const Contact = () => {
       <h1 className="text-center my-5 text-white">CONTACT ME</h1>
       <div className="d-flex justify-content-center align-items-center">
         <a
-          href="https://www.linkedin.com/in/debasmita-p-183585229/"
+          href="https://www.linkedin.com/in/deb-p-183585229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           target="_blank"
           className="mx-3"
         >
